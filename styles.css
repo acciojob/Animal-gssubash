@@ -1,1 +1,17 @@
+*{
+	font-family: sans-serif;
+}
 /*  your css code here. If applicable */
+
+#animal-photos{
+	background-color: #444444;
+}
+img{
+	width:150px;
+	/* heigth: 100px; */
+}
+#img-container{
+display: grid;
+ 	grid-template-columns: repeat(3,1fr);
+}
+
