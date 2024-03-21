@@ -1,20 +1,31 @@
 *{
-	font-family: sans-serif;
+	/* font-family: sans-serif; */
 }
 /*  your css code here. If applicable */
-
+#photo-heading{
+	text-align: center;
+	color: white;
+}
 #animal-photos{
 	background-color: #444444;
+	border-radius: 20px;
 }
 img{
 	width:150px;
+	border-radius: 12px;
 }
+
 #img-container{
+	padding: 10px;
+	width: 90%;
 display: grid;
+	margin-inline: auto;
  	grid-template-columns: repeat(3,1fr);
+	justify-content: center;
 	justify-items: center;
 	align-items: center;
-background-color: red;
-	row-gap: 10px;
+/* background-color: red; */
+	row-gap: 20px;
+	border-radius: 20px;
 }
 
