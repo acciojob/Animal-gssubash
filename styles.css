@@ -8,10 +8,13 @@
 }
 img{
 	width:150px;
-	/* heigth: 100px; */
 }
 #img-container{
 display: grid;
  	grid-template-columns: repeat(3,1fr);
+	justify-items: center;
+	align-items: center;
+background-color: red;
+	row-gap: 10px;
 }
 
